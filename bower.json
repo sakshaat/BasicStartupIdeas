@@ -1,0 +1,21 @@
+{
+  "name": "StartupIdeaGenerator",
+  "authors": [
+    "sakshaat"
+  ],
+  "description": "A front-end web application that generates the idea for your next startup venture.",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery-SlotMachine": "jquery-slotmachine#^3.0.1"
+  }
+}

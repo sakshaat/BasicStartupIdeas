@@ -1,0 +1,24 @@
+{
+    "name": "startupideagenerator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "browser-sync": "^2.18.13"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "hot-reload": "browser-sync start --no-open -s -f \"./index.html\" \"css/*.css\" \"js/**\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sakshaat/startupideagenerator.git"
+    },
+    "author": "sakshaat",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sakshaat/startupideagenerator/issues"
+    },
+    "homepage": "https://github.com/sakshaat/startupideagenerator#readme"
+}
