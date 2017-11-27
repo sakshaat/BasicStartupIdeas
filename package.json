@@ -14,11 +14,7 @@
         "gulp-uglifyes": "^0.1.2",
         "main-bower-files": "^2.13.1"
     },
-    "devDependencies": {
-        "browser-sync": "^2.18.13"
-    },
     "scripts": {
-        "hot-reload": "browser-sync start --no-open -s -f \"./index.html\" \"css/*.css\" \"js/**\"",
         "postinstall": "./node_modules/bower/bin/bower install && gulp build"
     },
     "repository": {

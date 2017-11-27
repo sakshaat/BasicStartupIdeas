@@ -14,7 +14,11 @@ body {
 }
 
 #industry-slot {
-    height: 3em;
+    height: 4em;
+}
+
+#industry-slot h4 {
+    height: 4em;
 }
 
 .slot-machine h3 {
@@ -39,4 +43,13 @@ body {
 
 #shuffle-button {
     margin-top: 1.5em;
+}
+
+@media only screen and (max-width: 420px) {
+    #industry-slot {
+        height: 4em;
+    }
+    #industry-slot h4 {
+        height: 4em;
+    }
 }
