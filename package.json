@@ -3,13 +3,16 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "dependencies": {},
+    "dependencies": {
+        "bower": "^1.8.0"	
+    },
     "devDependencies": {
         "browser-sync": "^2.18.13"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "hot-reload": "browser-sync start --no-open -s -f \"./index.html\" \"css/*.css\" \"js/**\""
+        "hot-reload": "browser-sync start --no-open -s -f \"./index.html\" \"css/*.css\" \"js/**\","
+"postinstall": "./node_modules/bower/bin/bower install" 
     },
     "repository": {
         "type": "git",
