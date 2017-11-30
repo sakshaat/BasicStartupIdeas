@@ -11,6 +11,7 @@ body {
 #company-slot {
     height: 3em;
     margin: auto;
+    margin-top: 5%;
 }
 
 #industry-slot {
@@ -19,6 +20,29 @@ body {
 
 #industry-slot h4 {
     height: 4em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    background-color: #1DB0DF;
+}
+
+footer a {
+    color: #195AC8;
+}
+
+footer a:hover {
+    color: black;
+}
+
+.intro {
+    margin-top: 5%;
+}
+
+.intro p {
+    text-align: center;
 }
 
 .slot-machine h3 {
@@ -30,7 +54,7 @@ body {
 }
 
 #content {
-    margin-top: 25%;
+    margin-top: 10%;
 }
 
 .button-primary {
